@@ -11,6 +11,9 @@ import componentMaxInlineDeclarations, {
 import componentSelector, {
   RULE_NAME as componentSelectorRuleName,
 } from './rules/component-selector';
+import contextualDecorator, {
+  RULE_NAME as contextualDecoratorRuleName,
+} from './rules/contextual-decorator';
 import contextualLifecycle, {
   RULE_NAME as contextualLifecycleRuleName,
 } from './rules/contextual-lifecycle';
@@ -101,6 +104,7 @@ export default {
     [componentMaxInlineDeclarationsRuleName]: componentMaxInlineDeclarations,
     [componentSelectorRuleName]: componentSelector,
     [contextualLifecycleRuleName]: contextualLifecycle,
+    [contextualDecoratorRuleName]: contextualDecorator,
     [directiveClassSuffixRuleName]: directiveClassSuffix,
     [directiveSelectorRuleName]: directiveSelector,
     [noAttributeDecoratorRuleName]: noAttributeDecorator,

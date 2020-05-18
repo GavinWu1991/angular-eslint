@@ -50,6 +50,7 @@
     "quotes": ["error", "single"],
     "comma-dangle": "off",
     "@angular-eslint/component-class-suffix": "error",
+    "@angular-eslint/contextual-decorator": "error",
     "@angular-eslint/contextual-lifecycle": "error",
     "@angular-eslint/directive-class-suffix": "error",
     "@angular-eslint/no-conflicting-lifecycle": "error",

@@ -95,7 +95,7 @@ If you are looking for general help in migrating from TSLint to ESLint, you can 
 
 | Codelyzer rule                                  |       Status       |
 | ----------------------------------------------- | :----------------: |
-| [`contextual-decorator`]                        |                    |
+| [`contextual-decorator`]                        | :white_check_mark: |
 | [`contextual-lifecycle`]                        | :white_check_mark: |
 | [`no-attribute-decorator`]                      | :white_check_mark: |
 | [`no-lifecycle-call`]                           | :white_check_mark: |
